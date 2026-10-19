@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="docs/screenshots/hero_splash.jpg" alt="PocketMind Banner" width="400" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
-</p>
-
 <h1 align="center">PocketMind</h1>
 
 <p align="center">
