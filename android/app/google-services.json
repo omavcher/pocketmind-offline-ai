@@ -1,0 +1,150 @@
+{
+  "project_info": {
+    "project_number": "282412601110",
+    "project_id": "placcademy",
+    "storage_bucket": "placcademy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282412601110:android:b798b9f65693f264e90a37",
+        "android_client_info": {
+          "package_name": "com.example.typegenius_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282412601110-esgeq35dt34v2po8f9ulqpe3um96rm92.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.typegenius_app",
+            "certificate_hash": "93d0a49d785ff825b2d414992b3b9f50afab2076"
+          }
+        },
+        {
+          "client_id": "282412601110-hhpike9bki3iag13ngbkkd5mfu3lig5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_ZRMlcmLzSLFFf6vcrz73yOE4sbR9n8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282412601110-562uee31vll96ict5q9bg0elt7p4ilbb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "282412601110-3d9lvksc23pvr0t3jn2f41vbevukm3t6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.typegeniusApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282412601110:android:ec26cc70dcb7425be90a37",
+        "android_client_info": {
+          "package_name": "com.heartecho.ai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282412601110-c0o23va5psan0gedl53q24htcqt3jb9t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.heartecho.ai",
+            "certificate_hash": "59e73cafd09b31d66dbbdbbce334e2aefce854ce"
+          }
+        },
+        {
+          "client_id": "282412601110-opuh3kivmnllvcvjvndrvje0vvl5msrt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.heartecho.ai",
+            "certificate_hash": "3a1aa9be0d9a53f76370991fabffd9fab516b7c6"
+          }
+        },
+        {
+          "client_id": "282412601110-hhpike9bki3iag13ngbkkd5mfu3lig5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_ZRMlcmLzSLFFf6vcrz73yOE4sbR9n8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282412601110-562uee31vll96ict5q9bg0elt7p4ilbb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "282412601110-3d9lvksc23pvr0t3jn2f41vbevukm3t6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.typegeniusApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282412601110:android:1e849f8ec1e6a4aae90a37",
+        "android_client_info": {
+          "package_name": "com.pocketmind.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282412601110-a90kelgem0cte4i53n9sa542thu1cc2s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pocketmind.app",
+            "certificate_hash": "1ad09e14f6242b51a682baef2530e4bd9a1569a2"
+          }
+        },
+        {
+          "client_id": "282412601110-hhpike9bki3iag13ngbkkd5mfu3lig5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_ZRMlcmLzSLFFf6vcrz73yOE4sbR9n8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282412601110-562uee31vll96ict5q9bg0elt7p4ilbb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "282412601110-3d9lvksc23pvr0t3jn2f41vbevukm3t6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.typegeniusApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

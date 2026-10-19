@@ -1,0 +1,54 @@
+name: Bug Report
+description: Create a report to help us improve PocketMind
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time to report a bug!
+  - type: input
+    id: device
+    attributes:
+      label: Device & OS
+      description: What device and operating system version are you using?
+      placeholder: e.g., Samsung Galaxy S23, Android 14 / Pixel 7, Android 14
+    validations:
+      required: true
+  - type: dropdown
+    id: model
+    attributes:
+      label: AI Model
+      description: Which local model was active when the issue happened?
+      options:
+        - Qwen 2.5 0.5B Q4_K_M
+        - Qwen 2.5 3B Q6_K
+        - Gemma 2 2B Q8
+        - Mistral 7B Instruct v0.2
+        - TinyLlama 1.1B
+        - Other (specified below)
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps To Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: |
+        1. Open 'Model Manager'
+        2. Click 'Download' on Qwen 2.5 0.5B
+        3. Switch to Chat screen and ask 'Hello'
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Stack Trace
+      description: Paste any Flutter or logcat output here.
+      render: shell

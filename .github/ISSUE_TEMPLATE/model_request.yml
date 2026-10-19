@@ -1,0 +1,41 @@
+name: New AI Model Request
+description: Request support for a new GGUF model in PocketMind
+labels: ["model-request", "enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: Request a new local quantized model to be officially supported in PocketMind's Model Manager.
+  - type: input
+    id: model_name
+    attributes:
+      label: Model Name & Version
+      placeholder: e.g., Llama 3.2 1B / 3B Instruct, Phi-3.5-mini
+    validations:
+      required: true
+  - type: input
+    id: huggingface_link
+    attributes:
+      label: HuggingFace GGUF Repo Link
+      placeholder: https://huggingface.co/...
+    validations:
+      required: true
+  - type: dropdown
+    id: recommended_quant
+    attributes:
+      label: Target Quantization
+      options:
+        - Q4_K_M (Recommended for mobile)
+        - Q4_0
+        - Q5_K_M
+        - Q6_K
+        - Q8_0
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why should this model be added?
+      description: What makes this model great for on-device mobile use (speed, language support, size, benchmarks)?
+    validations:
+      required: true
